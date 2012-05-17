@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FA051B215658A2000EBBFD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B115658A2000EBBFD0 /* UIKit.framework */; };
+		7FA051B415658A2000EBBFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B315658A2000EBBFD0 /* Foundation.framework */; };
+		7FA051B615658A2000EBBFD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B515658A2000EBBFD0 /* CoreGraphics.framework */; };
+		7FA051BC15658A2000EBBFD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FA051BA15658A2000EBBFD0 /* InfoPlist.strings */; };
+		7FA051BE15658A2000EBBFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA051BD15658A2000EBBFD0 /* main.m */; };
+		7FA051C215658A2000EBBFD0 /* SUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA051C115658A2000EBBFD0 /* SUIAppDelegate.m */; };
+		7FA051C515658A2000EBBFD0 /* SUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA051C415658A2000EBBFD0 /* SUIViewController.m */; };
+		7FA051C815658A2000EBBFD0 /* SUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FA051C615658A2000EBBFD0 /* SUIViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FA051AD15658A2000EBBFD0 /* SimpleUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA051B115658A2000EBBFD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FA051B315658A2000EBBFD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FA051B515658A2000EBBFD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FA051B915658A2000EBBFD0 /* SimpleUI-Info.plist */ = {isa = PBXFileReference; path = "SimpleUI-Info.plist"; sourceTree = "<group>"; };
+		7FA051BB15658A2000EBBFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FA051BD15658A2000EBBFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FA051BF15658A2000EBBFD0 /* SimpleUI-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleUI-Prefix.pch"; sourceTree = "<group>"; };
+		7FA051C015658A2000EBBFD0 /* SUIAppDelegate.h */ = {isa = PBXFileReference; path = SUIAppDelegate.h; sourceTree = "<group>"; };
+		7FA051C115658A2000EBBFD0 /* SUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUIAppDelegate.m; sourceTree = "<group>"; };
+		7FA051C315658A2000EBBFD0 /* SUIViewController.h */ = {isa = PBXFileReference; path = SUIViewController.h; sourceTree = "<group>"; };
+		7FA051C415658A2000EBBFD0 /* SUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUIViewController.m; sourceTree = "<group>"; };
+		7FA051C715658A2000EBBFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SUIViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA051AA15658A2000EBBFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA051B215658A2000EBBFD0 /* UIKit.framework in Frameworks */,
+				7FA051B415658A2000EBBFD0 /* Foundation.framework in Frameworks */,
+				7FA051B615658A2000EBBFD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA051A215658A2000EBBFD0 = {
+			isa = PBXGroup;
+			children = (
+				7FA051B715658A2000EBBFD0 /* SimpleUI */,
+				7FA051B015658A2000EBBFD0 /* Frameworks */,
+				7FA051AE15658A2000EBBFD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA051AE15658A2000EBBFD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA051AD15658A2000EBBFD0 /* SimpleUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA051B015658A2000EBBFD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FA051B115658A2000EBBFD0 /* UIKit.framework */,
+				7FA051B315658A2000EBBFD0 /* Foundation.framework */,
+				7FA051B515658A2000EBBFD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FA051B715658A2000EBBFD0 /* SimpleUI */ = {
+			isa = PBXGroup;
+			children = (
+				7FA051C015658A2000EBBFD0 /* SUIAppDelegate.h */,
+				7FA051C115658A2000EBBFD0 /* SUIAppDelegate.m */,
+				7FA051C315658A2000EBBFD0 /* SUIViewController.h */,
+				7FA051C415658A2000EBBFD0 /* SUIViewController.m */,
+				7FA051C615658A2000EBBFD0 /* SUIViewController.xib */,
+				7FA051B815658A2000EBBFD0 /* Supporting Files */,
+			);
+			path = SimpleUI;
+			sourceTree = "<group>";
+		};
+		7FA051B815658A2000EBBFD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA051B915658A2000EBBFD0 /* SimpleUI-Info.plist */,
+				7FA051BA15658A2000EBBFD0 /* InfoPlist.strings */,
+				7FA051BD15658A2000EBBFD0 /* main.m */,
+				7FA051BF15658A2000EBBFD0 /* SimpleUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA051AC15658A2000EBBFD0 /* SimpleUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA051CB15658A2000EBBFD0 /* Build configuration list for PBXNativeTarget "SimpleUI" */;
+			buildPhases = (
+				7FA051A915658A2000EBBFD0 /* Sources */,
+				7FA051AA15658A2000EBBFD0 /* Frameworks */,
+				7FA051AB15658A2000EBBFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUI;
+			productName = SimpleUI;
+			productReference = 7FA051AD15658A2000EBBFD0 /* SimpleUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA051A415658A2000EBBFD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SUI;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7FA051A715658A2000EBBFD0 /* Build configuration list for PBXProject "SimpleUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FA051A215658A2000EBBFD0;
+			productRefGroup = 7FA051AE15658A2000EBBFD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA051AC15658A2000EBBFD0 /* SimpleUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA051AB15658A2000EBBFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA051BC15658A2000EBBFD0 /* InfoPlist.strings in Resources */,
+				7FA051C815658A2000EBBFD0 /* SUIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA051A915658A2000EBBFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA051BE15658A2000EBBFD0 /* main.m in Sources */,
+				7FA051C215658A2000EBBFD0 /* SUIAppDelegate.m in Sources */,
+				7FA051C515658A2000EBBFD0 /* SUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FA051BA15658A2000EBBFD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA051BB15658A2000EBBFD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FA051C615658A2000EBBFD0 /* SUIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA051C715658A2000EBBFD0 /* en */,
+			);
+			name = SUIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FA051C915658A2000EBBFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FA051CA15658A2000EBBFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA051CC15658A2000EBBFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUI/SimpleUI-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUI/SimpleUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FA051CD15658A2000EBBFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUI/SimpleUI-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUI/SimpleUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA051A715658A2000EBBFD0 /* Build configuration list for PBXProject "SimpleUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA051C915658A2000EBBFD0 /* Debug */,
+				7FA051CA15658A2000EBBFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA051CB15658A2000EBBFD0 /* Build configuration list for PBXNativeTarget "SimpleUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA051CC15658A2000EBBFD0 /* Debug */,
+				7FA051CD15658A2000EBBFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA051A415658A2000EBBFD0 /* Project object */;
+}
