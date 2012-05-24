@@ -13,22 +13,12 @@
 @end
 
 @implementation SUIViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+@synthesize aTextField = _aTextField;
+@synthesize aLabel = _aLabel;
+- (IBAction)buttonPressed:(UIButton *)sender {
+    self.aLabel.text = self.aTextField.text;
+    [self.aTextField setText:@""];
+    
 }
 
 @end

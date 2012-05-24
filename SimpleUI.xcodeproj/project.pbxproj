@@ -22,13 +22,13 @@
 		7FA051B115658A2000EBBFD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FA051B315658A2000EBBFD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FA051B515658A2000EBBFD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7FA051B915658A2000EBBFD0 /* SimpleUI-Info.plist */ = {isa = PBXFileReference; path = "SimpleUI-Info.plist"; sourceTree = "<group>"; };
+		7FA051B915658A2000EBBFD0 /* SimpleUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleUI-Info.plist"; sourceTree = "<group>"; };
 		7FA051BB15658A2000EBBFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FA051BD15658A2000EBBFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7FA051BF15658A2000EBBFD0 /* SimpleUI-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleUI-Prefix.pch"; sourceTree = "<group>"; };
-		7FA051C015658A2000EBBFD0 /* SUIAppDelegate.h */ = {isa = PBXFileReference; path = SUIAppDelegate.h; sourceTree = "<group>"; };
+		7FA051BF15658A2000EBBFD0 /* SimpleUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleUI-Prefix.pch"; sourceTree = "<group>"; };
+		7FA051C015658A2000EBBFD0 /* SUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUIAppDelegate.h; sourceTree = "<group>"; };
 		7FA051C115658A2000EBBFD0 /* SUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUIAppDelegate.m; sourceTree = "<group>"; };
-		7FA051C315658A2000EBBFD0 /* SUIViewController.h */ = {isa = PBXFileReference; path = SUIViewController.h; sourceTree = "<group>"; };
+		7FA051C315658A2000EBBFD0 /* SUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUIViewController.h; sourceTree = "<group>"; };
 		7FA051C415658A2000EBBFD0 /* SUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUIViewController.m; sourceTree = "<group>"; };
 		7FA051C715658A2000EBBFD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SUIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,10 +237,14 @@
 		7FA051CC15658A2000EBBFD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Miene Lee (DZETHTS9Q3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleUI/SimpleUI-Prefix.pch";
 				INFOPLIST_FILE = "SimpleUI/SimpleUI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "88E3E127-3F41-4524-9DBE-96913A744A9E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,10 +252,15 @@
 		7FA051CD15658A2000EBBFD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleUI/SimpleUI-Prefix.pch";
 				INFOPLIST_FILE = "SimpleUI/SimpleUI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +284,7 @@
 				7FA051CD15658A2000EBBFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
