@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2DEDF01579418F0011D584 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2DEDEF1579418F0011D584 /* Icon.png */; };
+		7F2DEDF3157941990011D584 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2DEDF2157941990011D584 /* Icon@2x.png */; };
+		7F2DEDF5157941A10011D584 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2DEDF4157941A10011D584 /* Default.png */; };
 		7FA051B215658A2000EBBFD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B115658A2000EBBFD0 /* UIKit.framework */; };
 		7FA051B415658A2000EBBFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B315658A2000EBBFD0 /* Foundation.framework */; };
 		7FA051B615658A2000EBBFD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA051B515658A2000EBBFD0 /* CoreGraphics.framework */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2DEDEF1579418F0011D584 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7F2DEDF2157941990011D584 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7F2DEDF4157941A10011D584 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7FA051AD15658A2000EBBFD0 /* SimpleUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA051B115658A2000EBBFD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FA051B315658A2000EBBFD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +56,9 @@
 		7FA051A215658A2000EBBFD0 = {
 			isa = PBXGroup;
 			children = (
+				7F2DEDF4157941A10011D584 /* Default.png */,
+				7F2DEDF2157941990011D584 /* Icon@2x.png */,
+				7F2DEDEF1579418F0011D584 /* Icon.png */,
 				7FA051B715658A2000EBBFD0 /* SimpleUI */,
 				7FA051B015658A2000EBBFD0 /* Frameworks */,
 				7FA051AE15658A2000EBBFD0 /* Products */,
@@ -151,6 +160,9 @@
 			files = (
 				7FA051BC15658A2000EBBFD0 /* InfoPlist.strings in Resources */,
 				7FA051C815658A2000EBBFD0 /* SUIViewController.xib in Resources */,
+				7F2DEDF01579418F0011D584 /* Icon.png in Resources */,
+				7F2DEDF3157941990011D584 /* Icon@2x.png in Resources */,
+				7F2DEDF5157941A10011D584 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
